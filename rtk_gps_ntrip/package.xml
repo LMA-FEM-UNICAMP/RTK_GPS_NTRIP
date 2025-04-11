@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rtk_gps_ntrip</name>
+  <version>0.0.1</version>
+  <description>Meta-package that integrates ublox gps package and ntrip_client package for launch and build.</description>
+  <maintainer email="gabriel.rocha@ieee.org">toffanetto</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ublox</exec_depend>
+  <exec_depend>ntrip_client</exec_depend>
+  <exec_depend>fix2nmea</exec_depend>
+  <exec_depend>rtcm_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
