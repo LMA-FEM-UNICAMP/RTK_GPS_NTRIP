@@ -49,7 +49,7 @@ class NTRIPRos(Node):
         ('cert', 'None'),
         ('key', 'None'),
         ('ca_cert', 'None'),
-        ('rtcm_frame_id', 'odom'),
+        ('rtcm_frame_id', 'gps'),
         ('nmea_max_length', NMEA_DEFAULT_MAX_LENGTH),
         ('nmea_min_length', NMEA_DEFAULT_MIN_LENGTH),
         ('rtcm_message_package', _MAVROS_MSGS_NAME),
